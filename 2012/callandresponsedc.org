@@ -1,0 +1,21 @@
+* TODO Preserve old versions of the site.
+
+** TODO http://williamjohnbert.com/callandresponse2010 -> callandresponsedc.org/2010
+** TODO callandresponsedc.org/2012
+
+* TODO switch dns back to namecheap
+
+* TODO set up dns for github
+
+  - http://davidensinger.com/2013/03/setting-the-dns-for-github-pages-on-namecheap/
+
+* TODO add paypal snippet to
+** http://sandinmyjoints.github.io/callandresponsedc/
+* TODO make templates
+
+  - header
+  - footer
+  - menu
+* TODO kira makes github account
+
+* TODO tell kira what to do
