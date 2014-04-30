@@ -1,18 +1,21 @@
-{% include header.html %}
+<!DOCTYPE HTML>
+<html lang="en">
 
-<body>
+  {% include header.html %}
 
-{% include navbar-chiclet.html %}
+  <body>
 
-<div class="container-fluid">
+    {% include navbar-chiclet.html %}
 
-  {{ content }}
+    <div class="container-fluid">
 
-{% include footer.html %}
+      {{ content }}
 
-</div> <!--/.fluid-container-->
+      {% include footer.html %}
 
-{% include _scripts.html %}
+    </div>
 
-</body>
+    {% include _scripts.html %}
+
+  </body>
 </html>
