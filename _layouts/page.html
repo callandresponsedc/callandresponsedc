@@ -8,7 +8,9 @@
         {% include menu.html %}
         <div class="span9">
           {% include _chiclet.html %}
-          {{ content }}
+          <div class="swappable-content">
+            {{ content }}
+          </div>
         </div>
       </div>
       {% include footer.html %}

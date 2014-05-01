@@ -3,39 +3,38 @@ layout: page
 title: Contact
 ---
 
-<div class="swappable-content">
-  <h1>Contact
-  </h1>
-  <div id="contact_form">
-    <form action="http://www.callandresponsedc.org/contact/" method="post">
-      <div style='display:none'>
-        <input type='hidden' name='csrfmiddlewaretoken'
-               value='ee25f1b45319ed14728823a2fddb5cc4' />
+<h1>Contact
+</h1>
+<div id="contact_form">
+  <form action="http://www.callandresponsedc.org/contact/" method="post">
+    <div style='display:none'>
+      <input type='hidden' name='csrfmiddlewaretoken'
+             value='ee25f1b45319ed14728823a2fddb5cc4' />
+    </div>
+    <p id="form_message" class="error">
+    </p>
+    <div class="row-fluid">
+      <div class="span5">
+        Your message
+        <br/>
+        <textarea rows="7" cols="40" id="id_body" name="body">
+        </textarea>
       </div>
-      <p id="form_message" class="error">
-      </p>
-      <div class="row-fluid">
-        <div class="span5">
-          Your message
-          <br/>
-          <textarea rows="7" cols="40" id="id_body" name="body">
-          </textarea>
-        </div>
-        <div class="span5">
-          Your name
-          <br/>
-          <input id="id_name" type="text" name="name" maxlength="100" />
-          <br/>
-          Your email address
-          <br/>
-          <input id="id_email" type="text" name="email" maxlength="200" />
-          <br/>
-          <input type="submit" name="Send" value="Send"/>
-          <h4>Or tweet @callresponsedc.
-          </h4>
-        </div>
+      <div class="span5">
+        Your name
+        <br/>
+        <input id="id_name" type="text" name="name" maxlength="100" />
+        <br/>
+        Your email address
+        <br/>
+        <input id="id_email" type="text" name="email" maxlength="200" />
+        <br/>
+        <input type="submit" name="Send" value="Send"/>
+        <h4>Or tweet @callresponsedc.
+        </h4>
       </div>
-    </form>
-  </div>
+    </div>
+  </form>
 </div>
+
 
