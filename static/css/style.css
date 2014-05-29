@@ -1,0 +1,19 @@
+body {
+  padding-top: 122px;
+  padding-bottom: 40px;
+}
+
+.sidebar-nav {
+  padding: 9px 0;
+}
+
+.hero-unit {
+  background-image: none;
+  background-color: #def;
+  height: 200px;
+  margin-bottom: 0;
+}
+
+.swappable-content {
+  background-color: #def;
+}
