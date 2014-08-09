@@ -6957,14 +6957,14 @@ a.thumbnail:hover {
   line-height: 27px;
   color: inherit;
 }
-ul.participants li {
+.participants, ul.participants li {
   list-style: none;
   margin-left: -1.6em;
   padding-top: .5em;
   padding-bottom: .5em;
 }
 @h 1;
-ul.participants li a {
+.participants, ul.participants li a {
   font-size: larger;
 }
 .white-background {
