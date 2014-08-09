@@ -17,3 +17,7 @@ body {
 .swappable-content {
   background-color: #def;
 }
+
+.no-bullet {
+  list-style-type: none;
+}
