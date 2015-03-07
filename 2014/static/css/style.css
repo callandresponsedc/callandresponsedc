@@ -1,0 +1,51 @@
+body {
+  padding-top: 122px;
+  padding-bottom: 40px;
+}
+
+body a {
+  color: #777;
+}
+
+body a:hover {
+  color: #aaa;
+}
+
+.sidebar-nav a {
+  color: #333;
+}
+
+.sidebar-nav a:hover {
+  color: #333;
+}
+
+.sidebar-nav {
+  padding: 9px 0;
+}
+
+.hero-unit {
+  background-image: none;
+  background-color: #def;
+  height: 320px;
+  padding: 0;
+  margin-bottom: 0;
+  background-color: #fff !important;
+}
+
+.hero-unit img {
+  height: 100%;
+  border-radius: 6px;
+}
+
+.swappable-content {
+  background-color: #fff;
+}
+
+.no-bullet {
+  list-style-type: none;
+  margin-left: 0;
+}
+
+.navbar .brand {
+  color: #E8FF00;
+}
